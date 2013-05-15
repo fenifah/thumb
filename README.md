@@ -1,0 +1,4 @@
+thumb
+=====
+
+simple thumbnail create
