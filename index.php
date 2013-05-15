@@ -2,8 +2,7 @@
 include "thumbnail.inc.php";
 function createThumbs( $pathToImages, $pathToThumbs, $maxWidth = 120, $maxHeight = 120, $quality=100 )
 {
-//echo "masuk createThumbs";
-//include_once(_DOC_ROOT . "grab/thumbnail.inc.php");
+
 	if( is_file($pathToImages) )
 	{
 		$thumb = new Thumbnail($pathToImages);
